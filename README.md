@@ -1,4 +1,4 @@
-&emsp;A demo written while learning the OS(operating system).
+&emsp;Some demo programs written while learning the OS(operating system).
 
 - [fork.c](https://github.com/NingNing0111/OSStudy/blob/master/unixStudy/fork.c) : A demo that uses the `fork()` to create a process in C language.
 - [execvp.c](https://github.com/NingNing0111/OSStudy/blob/master/unixStudy/execvp.c): A demo that uses the `execvp()` to execute other programs in the current process.
