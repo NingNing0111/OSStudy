@@ -1,11 +1,8 @@
-// a demo about peterson algorithm
-
-// there are 2 process
-#define N 2
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
+
+#define N 2
 
 typedef int bool;
 
@@ -18,7 +15,6 @@ bool flag[N] = {0, 0};
 // process id
 int process_ids[N] = {0, 1};
 
-// lock function
 // process_id: the process id that needs to be locked.
 void lock(int process_id)
 {
@@ -31,7 +27,6 @@ void lock(int process_id)
         ;
 }
 
-// unlock function
 // process_id: the process want to release the lock.
 void unlock(int process_id)
 {
