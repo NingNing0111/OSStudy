@@ -5,3 +5,4 @@
 - [myshell.c](https://github.com/NingNing0111/OSStudy/blob/master/unixStudy/myshell.c): A demo that implements **Shell** using `fork()` and `execvp()`.
 - [consumer_producer.c](https://github.com/NingNing0111/OSStudy/blob/master/unixStudy/consumer_producer.c): A demo for explaining the producer-consumer problem.
 - [peterson.c](https://github.com/NingNing0111/OSStudy/blob/master/unixStudy/peterson.c): A demo that implements **Peterson Algorithm**.
+- [vigenere.c](https://github.com/NingNing0111/OSStudy/blob/master/security_study/vigenere.c): A demo that implements **Vigenere Secret**.
